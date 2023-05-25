@@ -10,7 +10,7 @@ variable "s3_bucket_prefix" {
 variable "aws_region" {
   description = "AWS region for all resources."
   type    = string
-  default = "us-east-1"
+  default = "us-east-2"
 }
 
 #S3 ACM Certificate ARN
